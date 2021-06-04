@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #082031 !important;
+}
+.navbtn a i {
+    color: #ffb400;
+    font-size: 20px;
+    transition: .4s;
+    margin-left: 25px;
+}
+i.fas.fa-home {
+    color: #ff5200;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+}
+.colBtn {
+    color: #ffb400;
+}
+.navbtn a i:hover {
+    transform: scale(1.3);
+    color: #ff5200;
+}
+.heading h1 {
+    color: white;
+    font-weight: 600;
+    width: 305px;
+    text-align: center;
+    margin: auto;
+	margin-top: 36px;
+}
+.heading h1 span {
+    color: #ffb400;
+}
+.animatedSpin {
+    width: 60px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: inherit;
+    z-index: 1;
+    margin-top: 80px;
+}
+.imgBoxWrapper {
+    margin-bottom: 40px;
+}
+.imageBox {
+    border-top: 2px solid #ffb400;
+    border-right: 1px solid #ffb400;
+    border-bottom: 2px solid #ffb400;
+	margin-top: -100px;
+    border-left: 9px solid #ffb400;
+    background: #ffb400;
+    border-top-right-radius: 95px;
+    border-bottom-right-radius: 226px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.imageBox img {
+    border-radius: 13px;
+	width: 100%;
+}
+.discriptionBox {
+    color: white !important;
+	text-align: center;
+}
+.discriptionBox p {
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 20px;
+    font-family: fangsong;
+    line-height: 31px;
+}
+
+.discriptionBox h1 span {
+    color: #ffb400;
+}
+
+.discriptionBox h1 {
+    font-weight: 600;
+}
+.discriptionBox a {
+    color: white;
+    text-decoration: none;
+}
+.discriptionBox a:hover {
+    color: white;
+    text-decoration: none;
+}
+.moreAboutBtn {
+    background: #ffb400 !important;
+    padding: 5px 18px;
+    border: 1px solid #ffb400;
+    transition: .4s;
+    font-family: arial;
+    border-radius: 10px;
+	margin-top: 20px;
+	border-bottom-right-radius: 0px;
+}
+.moreAboutBtn:hover {
+    transform: scale(1.1);
+    background: #082031 !important;
+    border:1px solid #ffb400 !important;
+    color:#ffb400 !important;
+}
+a.btn_hyper:hover {
+    cursor: pointer !important;
+    color: #ffb400;
+}
+button.moreAboutBtn.btn-primary:hover {
+    cursor: pointer !important;
+}
+button.moreAboutBtn.btn-primary:hover a {
+    color: #ffb400;
+}
+.directUpIcon {
+    font-size: 52px;
+    width: 50px;
+    text-align: center;
+	transition:.4s;
+}
+.directUpIcon:hover {
+    transform: scale(1.2);
+}
+.directUpIcon a i {
+    color: #ffb400 !important;
+}
+.footerInfo {
+    width: 164px;
+	color:white;
+}
+footer.footerBar {
+    padding: 15px 0px;
+    background: #352d4694;
+}
